@@ -1,0 +1,200 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	width: 1200px;
+	height: 1900px;
+}
+.head{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(to left, #3C3B3F,#605C3C,#3C3B3F);
+	text-decoration: none;
+	background-size: 200%;
+	transition: 0.5s;
+	text-align: center;
+	height: 200px;
+	width: 1200px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.head:hover{
+	background-position: right;
+}
+.bas{
+	display: flex;
+}
+.bas p{
+	margin-right: 70px;
+	color: white;
+}
+.krug{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 1px solid E0EAFC;
+	margin-right: 350px;
+	background:#E0EAFC;
+}
+.krug:hover{
+	background-position: right;
+}
+.head1{
+	display: flex;
+	justify-content: center;
+	margin-left: 60px;
+}
+.bas1{
+	width: 200px;
+	margin-right: 10px;
+	background:linear-gradient(to top, #11998e, #38ef7d, #11998e);
+	text-decoration: none;
+	background-size: 200%;
+	transition: 0.5s;
+	color: white;
+	border-radius: 5px;
+}
+.bas:hover{
+	background-position: right;
+}
+.bas1 p {
+	margin-left: 10px;
+}
+img{
+	height: 127.5px;
+	margin: 0;
+	width: 200px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.one{
+	transition: transform 0.5s;
+}
+.one:hover{
+	transform: scale(0.95);
+}
+.bas2{
+	display: grid;
+	grid-template-areas:
+	"a a b c"
+	"a a e d"
+	"r t p p"
+	"u i p p";
+	width: 500px;
+	margin-bottom: 5px;
+}
+.bas2 :nth-child(1) {
+	grid-area: a;
+}
+.bas2 :nth-child(1) {
+	grid-area: a;
+}
+.bas2 :nth-child(2) {
+	grid-area: b;
+}
+.bas2 :nth-child(3) {
+	grid-area: c;
+}
+.bas2 :nth-child(1) {
+	grid-area: a;
+}
+.bas2 :nth-child(1) {
+	grid-area: a;
+}
+.bas2 :nth-child(4) {
+	grid-area: e;
+}
+.bas2 :nth-child(5) {
+	grid-area: d;
+}
+.bas2 :nth-child(6) {
+	grid-area: r;
+}
+.bas2 :nth-child(7) {
+	grid-area: t;
+}
+.bas2 :nth-child(8) {
+	grid-area: p;
+}
+.bas2 :nth-child(8) {
+	grid-area: p;
+}
+.bas2 :nth-child(9) {
+	grid-area: u;
+}
+.bas2 :nth-child(10) {
+	grid-area: i;
+}
+.bas2 :nth-child(8) {
+	grid-area: p;
+}
+.bas2 :nth-child(8) {
+	grid-area: p;
+}
+.hh{
+	height: 259.8px;
+	width: 410px;
+}
+.bas4{
+	display: flex;
+	width: 870px;
+}
+.bas4 img{
+	width: 270px;
+	height: 250px;
+}
+.bas5{
+	margin-bottom: 20px;
+}
+.bas5 p{
+	width: 250px;
+}
+button{
+	width: 270px;
+	background:linear-gradient(to left,#373B44,#4286f4,#373B44);
+	height: 40px;
+	cursor: pointer;
+	border: 1px solid #77608e;
+	text-decoration: none;
+	background-size: 200%;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+button:hover{
+	background-position: right;
+}
+.head4{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to left, #642B73,#C6426E,#642B73);
+	text-decoration: none;
+	background-size: 200%;
+	transition: 0.5s;
+	text-align: center;
+	height: 200px;
+	width: 1200px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.head4:hover{
+	background-position: right;
+}
+.head4 p{
+	margin-right: 100px;
+	margin-left: 100px;
+}
